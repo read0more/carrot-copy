@@ -1,12 +1,13 @@
 {
-  "extends": ["next", "prettier"],
-  "plugins": ["prettier"],
+  "extends": ["next", "prettier", "plugin:tailwindcss/recommended"],
+  "plugins": ["prettier", "tailwindcss"],
   "rules": {
     "prettier/prettier": ["error"],
-    "import/extensions": ["error", "never", { "ts": "never", "tsx": "never" }],
+    "import/extensions": ["error", "never", { "css": "always" }],
     "import/no-extraneous-dependencies": [
       "error",
       { "devDependencies": ["**/*.test.ts", "**/*.test.tsx", "src/msw/*", "vitest.config.ts"] }
     ]
-  }
+  },
+  "ignorePatterns": ["./yarn"]
 }
