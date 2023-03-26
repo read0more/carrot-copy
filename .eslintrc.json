@@ -9,5 +9,5 @@
       { "devDependencies": ["**/*.test.ts", "**/*.test.tsx", "src/msw/*", "vitest.config.ts"] }
     ]
   },
-  "ignorePatterns": ["./yarn"]
+  "ignorePatterns": ["./.yarn", "./prisma"]
 }
