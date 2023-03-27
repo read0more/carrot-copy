@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
-import client from 'libs/client';
+import client from 'libs/server/client';
 
 type Data = {
   name: string;
