@@ -48,3 +48,7 @@ next-env.d.ts
 
 # env
 .env
+
+# prisma
+prisma/*
+!schema.prisma
