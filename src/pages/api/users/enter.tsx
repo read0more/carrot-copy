@@ -4,10 +4,6 @@ import withHandler, { ResponseType } from 'libs/server/withHandler';
 
 import twilio from 'twilio';
 
-type Data = {
-  name: string;
-};
-
 const twilioClient = twilio(
   process.env.TWILLO_ACCOUNT_SID,
   process.env.TWILLO_TOKEN
