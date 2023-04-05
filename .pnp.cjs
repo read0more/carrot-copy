@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:14.0.0"],\
             ["@types/node", "npm:18.15.3"],\
+            ["@types/nodemailer", "npm:6.4.7"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
@@ -51,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.2.0"],\
             ["msw", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:1.2.1"],\
             ["next", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:13.2.4"],\
+            ["nodemailer", "npm:6.9.1"],\
             ["postcss", "npm:8.4.21"],\
             ["prettier", "npm:2.8.7"],\
             ["prettier-plugin-tailwindcss", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:0.2.5"],\
@@ -1401,6 +1403,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["npm:18.15.9", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.15.9-8ef19f541e-5165f84f2f.zip/node_modules/@types/node/",\
           "packageDependencies": [\
+            ["@types/node", "npm:18.15.9"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/nodemailer", [\
+        ["npm:6.4.7", {\
+          "packageLocation": "./.yarn/cache/@types-nodemailer-npm-6.4.7-8618621ba9-dc2a33a891.zip/node_modules/@types/nodemailer/",\
+          "packageDependencies": [\
+            ["@types/nodemailer", "npm:6.4.7"],\
             ["@types/node", "npm:18.15.9"]\
           ],\
           "linkType": "HARD"\
@@ -6023,6 +6035,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:14.0.0"],\
             ["@types/node", "npm:18.15.3"],\
+            ["@types/nodemailer", "npm:6.4.7"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
@@ -6041,6 +6054,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.2.0"],\
             ["msw", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:1.2.1"],\
             ["next", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:13.2.4"],\
+            ["nodemailer", "npm:6.9.1"],\
             ["postcss", "npm:8.4.21"],\
             ["prettier", "npm:2.8.7"],\
             ["prettier-plugin-tailwindcss", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:0.2.5"],\
@@ -6193,6 +6207,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/node-releases-npm-2.0.10-f8e2d9a776-d784ecde25.zip/node_modules/node-releases/",\
           "packageDependencies": [\
             ["node-releases", "npm:2.0.10"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["nodemailer", [\
+        ["npm:6.9.1", {\
+          "packageLocation": "./.yarn/cache/nodemailer-npm-6.9.1-5159f56f86-b1b9670afc.zip/node_modules/nodemailer/",\
+          "packageDependencies": [\
+            ["nodemailer", "npm:6.9.1"]\
           ],\
           "linkType": "HARD"\
         }]\
