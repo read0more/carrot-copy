@@ -17,6 +17,7 @@
     "@types/react-dom": "18.0.11",
     "@yarnpkg/pnpify": "^4.0.0-rc.40",
     "components": "link:./src/components",
+    "iron-session": "^6.3.1",
     "libs": "link:./src/libs",
     "next": "13.2.4",
     "nodemailer": "^6.9.1",
