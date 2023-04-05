@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@prisma/client", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:4.11.0"],\
             ["@prisma/nextjs-monorepo-workaround-plugin", "npm:4.11.0"],\
+            ["@sendgrid/mail", "npm:7.7.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:14.0.0"],\
             ["@types/node", "npm:18.15.3"],\
@@ -1114,6 +1115,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@rushstack-eslint-patch-npm-1.2.0-917f402e4e-faa749faae.zip/node_modules/@rushstack/eslint-patch/",\
           "packageDependencies": [\
             ["@rushstack/eslint-patch", "npm:1.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sendgrid/client", [\
+        ["npm:7.7.0", {\
+          "packageLocation": "./.yarn/cache/@sendgrid-client-npm-7.7.0-5f79fe887b-81299ff65b.zip/node_modules/@sendgrid/client/",\
+          "packageDependencies": [\
+            ["@sendgrid/client", "npm:7.7.0"],\
+            ["@sendgrid/helpers", "npm:7.7.0"],\
+            ["axios", "npm:0.26.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sendgrid/helpers", [\
+        ["npm:7.7.0", {\
+          "packageLocation": "./.yarn/cache/@sendgrid-helpers-npm-7.7.0-6af68b3344-20387aae1b.zip/node_modules/@sendgrid/helpers/",\
+          "packageDependencies": [\
+            ["@sendgrid/helpers", "npm:7.7.0"],\
+            ["deepmerge", "npm:4.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sendgrid/mail", [\
+        ["npm:7.7.0", {\
+          "packageLocation": "./.yarn/cache/@sendgrid-mail-npm-7.7.0-347c053cdb-8bd446c367.zip/node_modules/@sendgrid/mail/",\
+          "packageDependencies": [\
+            ["@sendgrid/mail", "npm:7.7.0"],\
+            ["@sendgrid/client", "npm:7.7.0"],\
+            ["@sendgrid/helpers", "npm:7.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3031,6 +3064,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/deep-is-npm-0.1.4-88938b5a67-edb65dd0d7.zip/node_modules/deep-is/",\
           "packageDependencies": [\
             ["deep-is", "npm:0.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["deepmerge", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/cache/deepmerge-npm-4.3.1-4f751a0844-2024c6a980.zip/node_modules/deepmerge/",\
+          "packageDependencies": [\
+            ["deepmerge", "npm:4.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6020,6 +6062,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["my-next-template", "workspace:."],\
             ["@prisma/client", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:4.11.0"],\
             ["@prisma/nextjs-monorepo-workaround-plugin", "npm:4.11.0"],\
+            ["@sendgrid/mail", "npm:7.7.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:cd21ddab4b182fe3aaa16bd83a8c3af433e099c531ffeaefed989ed673e5d64354da04af818991a405f3bad0fad8623864a69b2b74a63a08b9e18217186242d2#npm:14.0.0"],\
             ["@types/node", "npm:18.15.3"],\
