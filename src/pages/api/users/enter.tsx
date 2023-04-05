@@ -47,23 +47,23 @@ async function handler(
     },
   });
 
-  if (phone) {
-    const message = await twilioClient.messages.create({
-      messagingServiceSid: process.env.TWILLO_MESSAGE_SID,
-      to: process.env.TWILLO_PHONE_NUMBER!,
-      body: `Your Carrot verification code is ${payload}`,
-    });
-    console.log(message);
-  } else if (email) {
-    const message = await transporter.sendMail({
-      from: process.env.NAVER_MAIL,
-      to: email,
-      subject: 'Your Carrot Market Verification Email',
-      text: `Your token is ${payload}`,
-      html: `<strong>Your token is ${payload}</strong>`,
-    });
-    console.log(message);
-  }
+  // if (phone) {
+  //   const message = await twilioClient.messages.create({
+  //     messagingServiceSid: process.env.TWILLO_MESSAGE_SID,
+  //     to: process.env.TWILLO_PHONE_NUMBER!,
+  //     body: `Your Carrot verification code is ${payload}`,
+  //   });
+  //   console.log(message);
+  // } else if (email) {
+  //   const message = await transporter.sendMail({
+  //     from: process.env.NAVER_MAIL,
+  //     to: email,
+  //     subject: 'Your Carrot Market Verification Email',
+  //     text: `Your token is ${payload}`,
+  //     html: `<strong>Your token is ${payload}</strong>`,
+  //   });
+  //   console.log(message);
+  // }
 
   return res.json({
     ok: true,
