@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Button from 'components/button';
 import Layout from 'components/layout';
 
-const ItemDetail: NextPage = () => {
+const ProductDetail: NextPage = () => {
   return (
     <Layout canGoBack>
       <div className="p-4">
@@ -69,4 +69,4 @@ const ItemDetail: NextPage = () => {
   );
 };
 
-export default ItemDetail;
+export default ProductDetail;
