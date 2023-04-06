@@ -9,7 +9,16 @@ async function handler(
 ) {
   if (req.method === 'GET') {
     // TODO: pagination
-    const products = await client.product.findMany({});
+    const products = await client.product.findMany({
+      include: {
+        _count: {
+          select: {
+            favs: true,
+          },
+        },
+      },
+    });
+
     res.json({
       ok: true,
       products,
