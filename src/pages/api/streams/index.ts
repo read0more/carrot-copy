@@ -26,7 +26,11 @@ async function handler(
     });
     res.json({ ok: true, stream });
   } else if (req.method === 'GET') {
-    const streams = await client.stream.findMany();
+    // TODO: pagination
+    const streams = await client.stream.findMany({
+      take: 20,
+      skip: 0,
+    });
     res.json({ ok: true, streams });
   }
 }
